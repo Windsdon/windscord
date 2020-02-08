@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "windscord",
+  "version": "${version}",
+
+  "name": "Windscord",
+  "description": "Bridges your Minecraft server and Discord!",
+  "authors": [
+    "Windsdon"
+  ],
+  "contact": {
+    "homepage": "https://windsdon.com/windscord",
+    "sources": "https://github.com/Windsdon/windscord"
+  },
+
+  "license": "MIT",
+  "icon": "assets/windscord/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.windsdon.windscord.WindscordMod"
+    ]
+  },
+  "mixins": [
+    "windscord.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

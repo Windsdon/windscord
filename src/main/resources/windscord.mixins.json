@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.windsdon.windscord.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ChatMessageMixin",
+    "BroadcastMessageMixin",
+    "PacketListenerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
